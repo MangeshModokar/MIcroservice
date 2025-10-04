@@ -1,10 +1,12 @@
 public class Controller {
+
+  private static int age;
   public static void main(String args[]){
 
-    private static int age;
+    
     System.out.println("Created Controller");
     System.out.println("line added");
-    System.out.println("Age");
+    System.out.println("Age" + age);
     System.out.println("Hi bro");
   }
 
